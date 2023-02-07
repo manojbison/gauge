@@ -5,6 +5,6 @@
 			<skipped message="/home/manoj/gauge/specs/tektonhub.spec:14 Step implementation not found =&gt; &#39;Verify ServiceAccount &#34;pipeline&#34; exist&#39;"></skipped>
 		</testcase>
 		<system-out></system-out>
-		<system-err>Validation failed, 1 Scenarios were skipped.</system-err>
+		<system-err></system-err>
 	</testsuite>
 </testsuites>

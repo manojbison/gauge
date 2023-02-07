@@ -38,4 +38,3 @@ var _ = gauge.Step("Create TektonHub CR yaml file", func() {
 
 	fmt.Println("YAML file created successfully:", fileName)
 })
-
