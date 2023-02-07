@@ -1,0 +1,398 @@
+30-01-2023 17:37:15.798 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 17:37:15.817 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 17:37:15.817 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 17:37:15.817 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 17:37:15.818 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 17:37:15.818 [Gauge] [INFO] Starting language runner
+30-01-2023 17:37:15.818 [Gauge] [DEBUG] Found 1 files
+30-01-2023 17:37:15.842 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 17:37:15.846 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 17:37:15.847 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 17:37:15.847 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 17:37:15.872 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 17:37:16.054 [Gauge] [INFO] Connection closed
+30-01-2023 17:37:16.054 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+30-01-2023 17:37:18.367 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 17:37:18.368 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 17:37:18.368 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 17:37:18.369 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 17:37:18.369 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 17:37:18.369 [Gauge] [INFO] Starting language runner
+30-01-2023 17:37:18.369 [Gauge] [DEBUG] Found 1 files
+30-01-2023 17:37:18.385 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 17:37:18.385 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 17:37:18.385 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 17:37:18.385 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 17:37:18.411 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 17:43:18.362 [Gauge] [INFO] Connection closed
+30-01-2023 17:43:18.362 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+30-01-2023 17:43:38.473 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 17:43:38.474 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 17:43:38.474 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 17:43:38.474 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 17:43:38.475 [Gauge] [INFO] Starting language runner
+30-01-2023 17:43:38.476 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 17:43:38.476 [Gauge] [DEBUG] Found 1 files
+30-01-2023 17:43:38.493 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 17:43:38.493 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 17:43:38.493 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 17:43:38.493 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 17:43:38.571 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 17:44:31.790 [Gauge] [INFO] Connection closed
+30-01-2023 17:44:31.790 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+30-01-2023 17:44:34.235 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 17:44:34.236 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 17:44:34.236 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 17:44:34.236 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 17:44:34.237 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 17:44:34.237 [Gauge] [INFO] Starting language runner
+30-01-2023 17:44:34.238 [Gauge] [DEBUG] Found 1 files
+30-01-2023 17:44:34.258 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 17:44:34.259 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 17:44:34.259 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 17:44:34.259 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 17:44:34.282 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 17:44:59.781 [Gauge] [INFO] Connection closed
+30-01-2023 17:44:59.781 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+30-01-2023 17:45:07.613 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 17:45:07.614 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 17:45:07.614 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 17:45:07.614 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 17:45:07.615 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 17:45:07.615 [Gauge] [INFO] Starting language runner
+30-01-2023 17:45:07.615 [Gauge] [DEBUG] Found 1 files
+30-01-2023 17:45:07.630 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 17:45:07.630 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 17:45:07.630 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 17:45:07.630 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 17:45:07.634 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 17:46:45.065 [Gauge] [INFO] Connection closed
+30-01-2023 17:46:45.065 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+30-01-2023 17:48:00.722 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 17:48:00.723 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 17:48:00.723 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 17:48:00.723 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 17:48:00.724 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 17:48:00.724 [Gauge] [INFO] Starting language runner
+30-01-2023 17:48:00.724 [Gauge] [DEBUG] Found 1 files
+30-01-2023 17:48:00.745 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 17:48:00.746 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 17:48:00.746 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 17:48:00.746 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 17:48:00.984 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 17:49:09.472 [Gauge] [INFO] Connection closed
+30-01-2023 17:49:09.472 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+30-01-2023 17:58:49.991 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 17:58:49.992 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 17:58:49.992 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 17:58:49.992 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 17:58:49.993 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 17:58:49.993 [Gauge] [INFO] Starting language runner
+30-01-2023 17:58:49.993 [Gauge] [DEBUG] Found 1 files
+30-01-2023 17:58:50.016 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 17:58:50.017 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 17:58:50.018 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 17:58:50.018 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 17:58:50.039 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 18:00:01.961 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /Users/manoj/Desktop/gauge/.gauge/executionStatus.json doesn't exist.
+30-01-2023 18:00:01.981 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 18:00:01.982 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 18:00:01.982 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:00:01.982 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 18:00:01.983 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 18:00:01.983 [Gauge] [INFO] Starting language runner
+30-01-2023 18:00:01.983 [Gauge] [DEBUG] Found 1 files
+30-01-2023 18:00:01.998 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 18:00:01.999 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 18:00:01.999 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 18:00:01.999 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 18:00:02.005 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 18:00:07.992 [Gauge] [INFO] Connection closed
+30-01-2023 18:00:07.992 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+30-01-2023 18:00:20.845 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 18:00:20.846 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 18:00:20.846 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:00:20.846 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 18:00:20.846 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 18:00:20.847 [Gauge] [DEBUG] Found 1 files
+30-01-2023 18:00:20.847 [Gauge] [INFO] Starting language runner
+30-01-2023 18:00:20.878 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 18:00:20.880 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 18:00:20.880 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 18:00:20.880 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 18:00:21.206 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 18:00:30.796 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /Users/manoj/Desktop/gauge/.gauge/executionStatus.json doesn't exist.
+30-01-2023 18:00:30.835 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 18:00:30.837 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 18:00:30.837 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:00:30.837 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 18:00:30.838 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 18:00:30.838 [Gauge] [DEBUG] Found 1 files
+30-01-2023 18:00:30.838 [Gauge] [INFO] Starting language runner
+30-01-2023 18:00:30.857 [python] [ERROR] ./start.sh: line 7: python: command not found
+30-01-2023 18:00:30.857 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 127
+30-01-2023 18:00:30.857 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 18:00:30.857 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 18:00:30.867 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 18:01:32.724 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /Users/manoj/Desktop/gauge/.gauge/executionStatus.json doesn't exist.
+30-01-2023 18:01:32.744 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 18:01:32.745 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 18:01:32.745 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:01:32.745 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 18:01:32.745 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 18:01:32.745 [Gauge] [INFO] Starting language runner
+30-01-2023 18:01:32.745 [Gauge] [DEBUG] Found 1 files
+30-01-2023 18:01:33.092 [python] [ERROR] Traceback (most recent call last):
+30-01-2023 18:01:33.092 [python] [ERROR] File "/Users/manoj/.gauge/plugins/python/0.3.17/start.py", line 11, in <module>
+30-01-2023 18:01:33.092 [python] [ERROR] from getgauge import handlers, logger, processor
+30-01-2023 18:01:33.092 [python] [ERROR] File "/Users/manoj/Library/Python/3.9/lib/python/site-packages/getgauge/handlers.py", line 4, in <module>
+30-01-2023 18:01:33.092 [python] [ERROR] from getgauge import logger, processor
+30-01-2023 18:01:33.092 [python] [ERROR] File "/Users/manoj/Library/Python/3.9/lib/python/site-packages/getgauge/processor.py", line 7, in <module>
+30-01-2023 18:01:33.092 [python] [ERROR] from getgauge.executor import (create_execution_status_response,
+30-01-2023 18:01:33.092 [python] [ERROR] File "/Users/manoj/Library/Python/3.9/lib/python/site-packages/getgauge/executor.py", line 7, in <module>
+30-01-2023 18:01:33.092 [python] [ERROR] from getgauge.messages.messages_pb2 import ExecutionStatusResponse, Message
+30-01-2023 18:01:33.092 [python] [ERROR] File "/Users/manoj/Library/Python/3.9/lib/python/site-packages/getgauge/messages/messages_pb2.py", line 6, in <module>
+30-01-2023 18:01:33.092 [python] [ERROR] import getgauge.messages.spec_pb2 as spec__pb2
+30-01-2023 18:01:33.092 [python] [ERROR] File "/Users/manoj/Library/Python/3.9/lib/python/site-packages/getgauge/messages/spec_pb2.py", line 34, in <module>
+30-01-2023 18:01:33.093 [python] [ERROR] _descriptor.EnumValueDescriptor(
+30-01-2023 18:01:33.093 [python] [ERROR] File "/Users/manoj/Library/Python/3.9/lib/python/site-packages/google/protobuf/descriptor.py", line 755, in __new__
+30-01-2023 18:01:33.093 [python] [ERROR] _message.Message._CheckCalledFromGeneratedFile()
+30-01-2023 18:01:33.093 [python] [ERROR] TypeError: Descriptors cannot not be created directly.
+30-01-2023 18:01:33.093 [python] [ERROR] If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+30-01-2023 18:01:33.093 [python] [ERROR] If you cannot immediately regenerate your protos, some other possible workarounds are:
+30-01-2023 18:01:33.093 [python] [ERROR] 1. Downgrade the protobuf package to 3.20.x or lower.
+30-01-2023 18:01:33.093 [python] [ERROR] 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+30-01-2023 18:01:33.093 [python] [ERROR] More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+30-01-2023 18:01:33.104 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+30-01-2023 18:01:33.104 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+30-01-2023 18:01:33.104 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 18:01:33.106 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+30-01-2023 18:05:18.916 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:05:19.932 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:05:22.986 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:07:41.393 [Gauge] [INFO] Connection closed
+30-01-2023 18:07:41.393 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+30-01-2023 18:07:48.476 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+30-01-2023 18:07:48.477 [Gauge] [INFO] Initializing specs cache with 1 specs
+30-01-2023 18:07:48.477 [Gauge] [DEBUG] Adding specs from /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:07:48.477 [Gauge] [INFO] Initializing steps cache with 1 steps
+30-01-2023 18:07:48.478 [Gauge] [DEBUG] Watching directory: /Users/manoj/Desktop/gauge/specs
+30-01-2023 18:07:48.478 [Gauge] [DEBUG] Found 1 files
+30-01-2023 18:07:48.478 [Gauge] [INFO] Starting language runner
+30-01-2023 18:07:49.695 [python] [INFO] Python: 3.9.6
+30-01-2023 18:07:49.695 [python] [DEBUG] Loading step implementations from /Users/manoj/Desktop/gauge/step_impl dirs.
+30-01-2023 18:07:49.946 [python] [DEBUG] Starting grpc server..
+30-01-2023 18:07:50.990 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54615
+30-01-2023 18:07:50.994 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54615
+30-01-2023 18:07:50.994 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+30-01-2023 18:07:51.010 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:07:51.012 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:07:51.015 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:07:51.017 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:08:35.831 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:08:35.834 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:08:36.198 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:08:36.202 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:08:36.497 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:08:39.315 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:08:39.319 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:08:39.613 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:08:40.331 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:08:40.338 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:08:40.635 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:08:42.556 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:08:51.449 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:08:51.453 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:08:51.743 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:08:52.106 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:08:52.109 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:08:52.401 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:08:52.502 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:10:38.811 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:10:38.815 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:10:39.107 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:10:39.849 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:10:39.853 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:10:40.146 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:10:40.235 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+30-01-2023 18:11:06.405 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:11:06.425 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:11:27.859 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:11:27.861 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:11:27.900 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:11:27.909 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:11:29.353 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:11:29.355 [Gauge] [DEBUG] Validation completed.
+30-01-2023 18:11:29.457 [Gauge] [DEBUG] Validation started.
+30-01-2023 18:11:29.459 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:09:17.913 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:09:17.915 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:41:55.264 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:41:55.266 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:43:26.889 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:43:26.893 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:45:32.590 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:45:32.593 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:54:15.653 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:54:15.655 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:54:16.032 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:57:42.606 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:57:42.606 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:57:42.844 [Gauge] [DEBUG] request #128: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:57:42.942 [Gauge] [DEBUG] request #129: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:57:43.094 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:57:47.201 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:57:47.497 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:57:50.479 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:57:50.479 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:57:50.714 [Gauge] [DEBUG] request #139: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:57:50.981 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:57:50.981 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:57:51.034 [Gauge] [DEBUG] request #140: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:57:51.134 [Gauge] [DEBUG] request #141: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:57:51.427 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:57:51.727 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:57:52.946 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:57:52.946 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:57:53.197 [Gauge] [DEBUG] request #146: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:57:53.295 [Gauge] [DEBUG] request #148: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:57:53.453 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:57:53.501 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:57:53.501 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:57:53.736 [Gauge] [DEBUG] request #149: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:57:53.837 [Gauge] [DEBUG] request #150: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:57:53.985 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:00.240 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:00.493 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:00.795 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:02.123 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:02.353 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:02.705 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:03.001 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:03.399 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:03.683 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:07.555 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:08.016 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:09.048 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:09.053 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:58:09.085 [Gauge] [DEBUG] request #164: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:58:09.324 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:09.324 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:58:09.372 [Gauge] [DEBUG] request #165: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:58:09.473 [Gauge] [DEBUG] request #166: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:58:09.622 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:09.828 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:09.828 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:58:10.070 [Gauge] [DEBUG] request #170: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:58:10.165 [Gauge] [DEBUG] request #171: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:58:10.326 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:12.384 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:12.674 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:14.973 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:14.973 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:58:15.208 [Gauge] [DEBUG] request #180: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:58:15.310 [Gauge] [DEBUG] request #181: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:58:15.461 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:19.721 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:19.991 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:21.313 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:23.222 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:23.575 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:23.942 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:23.943 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:58:23.976 [Gauge] [DEBUG] request #189: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:58:24.076 [Gauge] [DEBUG] request #190: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:58:24.306 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:24.306 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:58:24.355 [Gauge] [DEBUG] request #191: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:58:24.455 [Gauge] [DEBUG] request #192: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:58:24.608 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 15:58:25.558 [Gauge] [DEBUG] Validation started.
+31-01-2023 15:58:25.558 [Gauge] [DEBUG] Validation completed.
+31-01-2023 15:58:25.608 [Gauge] [DEBUG] request #194: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 15:58:25.708 [Gauge] [DEBUG] request #195: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 15:58:25.867 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 16:06:16.335 [Gauge] [DEBUG] request #197: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 16:06:18.692 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:18.692 [Gauge] [DEBUG] Validation completed.
+31-01-2023 16:06:18.732 [Gauge] [DEBUG] request #198: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 16:06:18.828 [Gauge] [DEBUG] request #199: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 16:06:19.109 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:19.573 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:19.573 [Gauge] [DEBUG] Validation completed.
+31-01-2023 16:06:19.619 [Gauge] [DEBUG] request #202: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 16:06:19.716 [Gauge] [DEBUG] request #203: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 16:06:19.959 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:20.251 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 16:06:20.695 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:20.695 [Gauge] [DEBUG] Validation completed.
+31-01-2023 16:06:20.727 [Gauge] [DEBUG] request #207: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 16:06:20.843 [Gauge] [DEBUG] request #208: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 16:06:21.049 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:21.049 [Gauge] [DEBUG] Validation completed.
+31-01-2023 16:06:21.094 [Gauge] [DEBUG] request #209: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 16:06:21.199 [Gauge] [DEBUG] request #210: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 16:06:21.548 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:21.990 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:22.389 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:22.741 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:22.741 [Gauge] [DEBUG] Validation completed.
+31-01-2023 16:06:22.773 [Gauge] [DEBUG] request #216: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 16:06:23.082 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:23.082 [Gauge] [DEBUG] Validation completed.
+31-01-2023 16:06:23.117 [Gauge] [DEBUG] request #217: textDocument/codeLens: failed to parse /Users/manoj/Desktop/gauge/specs/example.spec
+/Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank
+31-01-2023 16:06:23.219 [Gauge] [DEBUG] request #218: textDocument/documentSymbol: parsing failed for /Users/manoj/Desktop/gauge/specs/example.spec. [[ParseError] /Users/manoj/Desktop/gauge/specs/example.spec:11 Step should not be blank => '']
+31-01-2023 16:06:23.458 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:23.905 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:06:24.214 [Gauge] [DEBUG] Spec file added / modified: /Users/manoj/Desktop/gauge/specs/example.spec
+31-01-2023 16:10:52.916 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:10:55.298 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:13:13.771 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:13:17.886 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:13:18.262 [Gauge] [DEBUG] Validation started.
+31-01-2023 16:20:38.574 [python] [DEBUG] KillProcessrequest received
+31-01-2023 16:20:38.624 [python] [DEBUG] KillProcessrequest received
+31-01-2023 16:20:39.129 [Gauge] [DEBUG] Runner with PID:10024 has exited
+31-01-2023 16:20:39.129 [Gauge] [INFO] Connection closed
+31-01-2023 16:20:39.129 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed

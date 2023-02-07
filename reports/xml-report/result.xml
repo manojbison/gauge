@@ -1,0 +1,10 @@
+<testsuites>
+	<testsuite id="1" tests="1" failures="0" package="/Users/manoj/Desktop/gauge/specs/tektonhub.spec" time="0.000" timestamp="2023-02-03T13:44:21" name="Verify TektonHub E2E spec" errors="0" skipped="1" hostname="Manojs-MacBook-Pro.local">
+		<properties></properties>
+		<testcase classname="Verify TektonHub E2E spec" name="Run sample tektonhub" time="0.000">
+			<skipped message="/Users/manoj/Desktop/gauge/specs/tektonhub.spec:10 Step implementation not found =&gt; &#39;Verify ServiceAccount &#34;pipeline&#34; exist&#39;"></skipped>
+		</testcase>
+		<system-out></system-out>
+		<system-err>Validation failed, 1 Scenarios were skipped.</system-err>
+	</testsuite>
+</testsuites>
