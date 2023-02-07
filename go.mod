@@ -1,30 +1,28 @@
-module step_impl
+module gauge
 
-go 1.18
+go 1.19
+
+require (
+	github.com/getgauge-contrib/gauge-go v0.3.1
+	github.com/openshift-pipelines/release-tests v0.0.0-20230119152413-4ac9a3b4aa30
+)
 
 require (
 	contrib.go.opencensus.io/exporter/ocagent v0.7.1-0.20200907061046-05415f1de66d // indirect
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2 // indirect
 	github.com/Netflix/go-expect v0.0.0-20201125194554-85d881c3777e // indirect
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect
-	github.com/apoorvam/goterminal v0.0.0-20180523175556-614d345c47e5 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/blendle/zapdriver v1.3.1 // indirect
 	github.com/census-instrumentation/opencensus-proto v0.4.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/daviddengcn/go-colortext v1.0.0 // indirect
 	github.com/dmotylev/goproperties v0.0.0-20140630191356-7cbffbaada47 // indirect
 	github.com/emicklei/go-restful/v3 v3.10.0 // indirect
 	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
 	github.com/evanphx/json-patch/v5 v5.6.0 // indirect
-	github.com/fsnotify/fsnotify v1.6.0 // indirect
-	github.com/getgauge-contrib/gauge-go v0.3.1 // indirect
 	github.com/getgauge/common v0.0.0-20200824023809-24587c106922 // indirect
-	github.com/getgauge/gauge v1.4.3 // indirect
-	github.com/getgauge/gauge-proto/go/gauge_messages v0.0.0-20210112094005-73ca40cb5ac4 // indirect
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
@@ -45,24 +43,18 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
-	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kelseyhightower/envconfig v1.4.0 // indirect
 	github.com/kr/pty v1.1.5 // indirect
-	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/manifestival/manifestival v0.7.2 // indirect
-	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
-	github.com/op/go-logging v0.0.0-20160315200505-970db520ece7 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/openshift-pipelines/pipelines-as-code v0.14.2 // indirect
-	github.com/openshift-pipelines/release-tests v0.0.0-20230119152413-4ac9a3b4aa30 // indirect
 	github.com/openshift/api v0.0.0-20220525145417-ee5b62754c68 // indirect
 	github.com/openshift/client-go v0.0.0-20220603133046-984ee5ebedcf // indirect
 	github.com/operator-framework/api v0.10.3 // indirect
@@ -75,12 +67,7 @@ require (
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/prometheus/statsd_exporter v0.22.8 // indirect
-	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/schollz/closestmatch v2.1.0+incompatible // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
-	github.com/sourcegraph/go-langserver v2.0.0+incompatible // indirect
-	github.com/sourcegraph/jsonrpc2 v0.0.0-20200429184054-15c2290dcb37 // indirect
-	github.com/spf13/cobra v1.6.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/tektoncd/operator v0.63.0 // indirect
