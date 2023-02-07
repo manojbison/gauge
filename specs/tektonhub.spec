@@ -12,3 +12,4 @@ Importance: Critical
 
 Steps:
   * Verify ServiceAccount "pipeline" exist
+  * Create TektonHub CR yaml file 
