@@ -85,7 +85,7 @@ require (
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/tektoncd/operator v0.63.0 // indirect
 	github.com/tektoncd/pipeline v0.41.0 // indirect
-	github.com/tektoncd/triggers v0.22.0 // indirect
+	github.com/tektoncd/triggers v0.22.1 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect

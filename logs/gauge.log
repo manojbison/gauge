@@ -1656,3 +1656,875 @@ Total time taken: 33ms
 03-02-2023 13:44:21.756 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
 03-02-2023 13:44:21.756 [Gauge] [INFO] 
 Total time taken: 35ms
+07-02-2023 11:45:58.848 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 11:45:58.861 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 11:45:58.861 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 11:45:58.862 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 11:45:58.863 [Gauge] [DEBUG] Parsing started.
+07-02-2023 11:45:58.864 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 11:45:58.865 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 11:45:58.865 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 11:45:58.867 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 11:45:58.867 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 11:45:58.869 [Gauge] [DEBUG] Starting go runner
+07-02-2023 11:45:59.806 [Gauge] [DEBUG] Checking updates...
+07-02-2023 11:45:59.807 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:00.574 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:00.633 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:00.693 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:00.754 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:10.706 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 11:46:10.706 [Gauge] [DEBUG] Validation started.
+07-02-2023 11:46:10.709 [Gauge] [ERROR] [ValidationError] /Users/manoj/Desktop/gauge/specs/tektonhub.spec:14 Step implementation not found => 'Verify ServiceAccount "pipeline" exist'
+07-02-2023 11:46:10.710 [Gauge] [DEBUG] Run started
+07-02-2023 11:46:10.711 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 11:46:10.724 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+07-02-2023 11:46:10.725 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64918
+07-02-2023 11:46:10.727 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64918
+07-02-2023 11:46:10.728 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 11:46:10.741 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64923
+07-02-2023 11:46:10.743 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64923
+07-02-2023 11:46:10.743 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 11:46:10.750 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 11:46:10.761 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 11:46:10.761 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 11:46:10.762 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 11:46:10.762 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 11:46:10.762 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 11:46:10.763 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 11:46:10.765 [go] [INFO] ok  	command-line-arguments	1.130s
+07-02-2023 11:46:11.065 [Gauge] [DEBUG] Runner with PID:68784 has exited
+07-02-2023 11:46:11.065 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:46:11.065 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:46:11.065 [Gauge] [INFO] 
+Total time taken: 39ms
+07-02-2023 11:46:24.890 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 11:46:24.891 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 11:46:24.891 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 11:46:24.892 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 11:46:24.892 [Gauge] [DEBUG] Parsing started.
+07-02-2023 11:46:24.892 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 11:46:24.894 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 11:46:24.894 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 11:46:24.895 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 11:46:24.895 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 11:46:24.896 [Gauge] [DEBUG] Starting go runner
+07-02-2023 11:46:25.933 [Gauge] [DEBUG] Checking updates...
+07-02-2023 11:46:25.934 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:26.110 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:26.176 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:26.241 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:26.308 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:46:28.995 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 11:46:28.995 [Gauge] [DEBUG] Validation started.
+07-02-2023 11:46:28.998 [Gauge] [DEBUG] Validation completed.
+07-02-2023 11:46:28.998 [Gauge] [DEBUG] Run started
+07-02-2023 11:46:29.000 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 11:46:29.012 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64931
+07-02-2023 11:46:29.015 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64931
+07-02-2023 11:46:29.016 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 11:46:29.025 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64936
+07-02-2023 11:46:29.028 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64936
+07-02-2023 11:46:29.028 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 11:46:29.031 [Gauge] [INFO] # Specification Heading
+07-02-2023 11:46:29.033 [Gauge] [INFO] ## Vowel counts in single word
+07-02-2023 11:46:29.035 [Gauge] [DEBUG] * Vowels in English language are "aeiou".
+
+07-02-2023 11:46:29.037 [Gauge] [DEBUG] * The word "gauge" has "3" vowels.
+
+07-02-2023 11:46:29.039 [Gauge] [INFO] ## Vowel counts in multiple word
+07-02-2023 11:46:29.041 [Gauge] [DEBUG] * Vowels in English language are "aeiou".
+
+07-02-2023 11:46:29.043 [Gauge] [DEBUG] * Almost all words have vowels 
+
+   |Word  |Vowel Count|
+   |------|-----------|
+   |Gauge |3          |
+   |Mingle|2          |
+   |Snap  |1          |
+   |GoCD  |1          |
+   |Rhythm|0          |
+07-02-2023 11:46:29.050 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 11:46:29.062 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 11:46:29.062 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 11:46:29.063 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 11:46:29.063 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 11:46:29.063 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 11:46:29.064 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 11:46:29.066 [go] [INFO] ok  	command-line-arguments	1.037s
+07-02-2023 11:46:29.365 [Gauge] [DEBUG] Runner with PID:68864 has exited
+07-02-2023 11:46:29.367 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 11:46:29.368 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+07-02-2023 11:46:29.368 [Gauge] [INFO] 
+Total time taken: 51ms
+07-02-2023 11:49:15.300 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 11:49:15.301 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 11:49:15.301 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 11:49:15.302 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 11:49:15.302 [Gauge] [DEBUG] Parsing started.
+07-02-2023 11:49:15.302 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 11:49:15.303 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 11:49:15.303 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 11:49:15.304 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 11:49:15.304 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 11:49:15.304 [Gauge] [DEBUG] Starting go runner
+07-02-2023 11:49:16.318 [Gauge] [DEBUG] Checking updates...
+07-02-2023 11:49:16.318 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:49:16.639 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:49:16.696 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:49:16.753 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:49:16.809 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:49:19.553 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 11:49:19.553 [Gauge] [DEBUG] Validation started.
+07-02-2023 11:49:19.555 [Gauge] [ERROR] [ValidationError] /Users/manoj/Desktop/gauge/specs/tektonhub.spec:14 Step implementation not found => 'Verify ServiceAccount "pipeline" exist'
+07-02-2023 11:49:19.555 [Gauge] [DEBUG] Run started
+07-02-2023 11:49:19.557 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 11:49:19.570 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64998
+07-02-2023 11:49:19.572 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 64998
+07-02-2023 11:49:19.574 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 11:49:19.583 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65003
+07-02-2023 11:49:19.585 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65003
+07-02-2023 11:49:19.585 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 11:49:19.591 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 11:49:19.598 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 11:49:19.598 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 11:49:19.599 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 11:49:19.599 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 11:49:19.599 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 11:49:19.600 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 11:49:19.602 [go] [INFO] ok  	command-line-arguments	1.154s
+07-02-2023 11:49:19.901 [Gauge] [DEBUG] Runner with PID:69010 has exited
+07-02-2023 11:49:19.902 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:49:19.902 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:49:19.902 [Gauge] [INFO] 
+Total time taken: 34ms
+07-02-2023 11:50:17.896 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 11:50:17.897 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 11:50:17.898 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 11:50:17.898 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 11:50:17.899 [Gauge] [DEBUG] Parsing started.
+07-02-2023 11:50:17.899 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 11:50:17.900 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 11:50:17.900 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 11:50:17.901 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 11:50:17.901 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 11:50:17.902 [Gauge] [DEBUG] Starting go runner
+07-02-2023 11:50:18.941 [Gauge] [DEBUG] Checking updates...
+07-02-2023 11:50:18.942 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:50:19.859 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:50:19.926 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:50:19.999 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:50:20.067 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:50:22.278 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 11:50:22.278 [Gauge] [DEBUG] Validation started.
+07-02-2023 11:50:22.280 [Gauge] [ERROR] [ValidationError] /Users/manoj/Desktop/gauge/specs/tektonhub.spec:14 Step implementation not found => 'Verify ServiceAccount "pipeline" exist'
+07-02-2023 11:50:22.281 [Gauge] [DEBUG] Run started
+07-02-2023 11:50:22.284 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 11:50:22.296 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65015
+07-02-2023 11:50:22.299 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65015
+07-02-2023 11:50:22.299 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 11:50:22.312 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65020
+07-02-2023 11:50:22.316 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65020
+07-02-2023 11:50:22.317 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 11:50:22.324 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 11:50:22.332 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 11:50:22.332 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 11:50:22.333 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 11:50:22.333 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 11:50:22.333 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 11:50:22.334 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 11:50:22.337 [go] [INFO] ok  	command-line-arguments	1.262s
+07-02-2023 11:50:22.636 [Gauge] [DEBUG] Runner with PID:69106 has exited
+07-02-2023 11:50:22.636 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:50:22.637 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:50:22.637 [Gauge] [INFO] 
+Total time taken: 42ms
+07-02-2023 11:54:23.485 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 11:54:23.487 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 11:54:23.488 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 11:54:23.488 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 11:54:23.489 [Gauge] [DEBUG] Parsing started.
+07-02-2023 11:54:23.489 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 11:54:23.490 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 11:54:23.490 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 11:54:23.491 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 11:54:23.491 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 11:54:23.492 [Gauge] [DEBUG] Starting go runner
+07-02-2023 11:54:24.349 [Gauge] [DEBUG] Checking updates...
+07-02-2023 11:54:24.349 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:54:26.064 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:54:26.131 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:54:26.199 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:54:26.262 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:54:31.129 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 11:54:31.129 [Gauge] [DEBUG] Validation started.
+07-02-2023 11:54:31.133 [Gauge] [ERROR] [ValidationError] /Users/manoj/Desktop/gauge/specs/tektonhub.spec:14 Step implementation not found => 'Verify ServiceAccount "pipeline" exist'
+07-02-2023 11:54:31.133 [Gauge] [DEBUG] Run started
+07-02-2023 11:54:31.134 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 11:54:31.148 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65072
+07-02-2023 11:54:31.151 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65072
+07-02-2023 11:54:31.153 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 11:54:31.162 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65078
+07-02-2023 11:54:31.164 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65078
+07-02-2023 11:54:31.164 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 11:54:31.170 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 11:54:31.177 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 11:54:31.178 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 11:54:31.179 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 11:54:31.179 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 11:54:31.179 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 11:54:31.179 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 11:54:31.181 [go] [INFO] ok  	command-line-arguments	1.301s
+07-02-2023 11:54:31.481 [Gauge] [DEBUG] Runner with PID:69312 has exited
+07-02-2023 11:54:31.482 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:54:31.482 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:54:31.482 [Gauge] [INFO] 
+Total time taken: 36ms
+07-02-2023 11:55:32.485 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 11:55:32.486 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 11:55:32.487 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 11:55:32.487 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 11:55:32.487 [Gauge] [DEBUG] Parsing started.
+07-02-2023 11:55:32.487 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 11:55:32.489 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 11:55:32.489 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 11:55:32.489 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 11:55:32.489 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 11:55:32.491 [Gauge] [DEBUG] Starting go runner
+07-02-2023 11:55:33.630 [Gauge] [DEBUG] Checking updates...
+07-02-2023 11:55:33.633 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:55:34.049 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:55:34.106 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:55:34.165 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:55:34.221 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 11:55:36.733 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 11:55:36.733 [Gauge] [DEBUG] Validation started.
+07-02-2023 11:55:36.735 [Gauge] [ERROR] [ValidationError] /Users/manoj/Desktop/gauge/specs/tektonhub.spec:14 Step implementation not found => 'Verify ServiceAccount "pipeline" exist'
+07-02-2023 11:55:36.735 [Gauge] [DEBUG] Run started
+07-02-2023 11:55:36.739 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 11:55:36.752 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+07-02-2023 11:55:36.753 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65097
+07-02-2023 11:55:36.755 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65097
+07-02-2023 11:55:36.756 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 11:55:36.765 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65102
+07-02-2023 11:55:36.767 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65102
+07-02-2023 11:55:36.767 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 11:55:36.773 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 11:55:36.780 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 11:55:36.780 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 11:55:36.782 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 11:55:36.782 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 11:55:36.782 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 11:55:36.783 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 11:55:36.785 [go] [INFO] ok  	command-line-arguments	1.115s
+07-02-2023 11:55:37.083 [Gauge] [DEBUG] Runner with PID:69459 has exited
+07-02-2023 11:55:37.084 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:55:37.084 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 11:55:37.084 [Gauge] [INFO] 
+Total time taken: 37ms
+07-02-2023 12:08:42.316 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:08:42.317 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:08:42.317 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:08:42.317 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:08:42.318 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:08:42.318 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:08:42.319 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:08:42.319 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:08:42.320 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:08:42.320 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:08:42.321 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:08:43.093 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:08:43.094 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:08:43.474 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:08:43.534 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:08:43.587 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:08:43.645 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:08:46.689 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:08:46.689 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:08:46.692 [Gauge] [ERROR] [ValidationError] /Users/manoj/Desktop/gauge/specs/tektonhub.spec:14 Step implementation not found => 'Verify ServiceAccount "pipeline" exist'
+07-02-2023 12:08:46.692 [Gauge] [DEBUG] Run started
+07-02-2023 12:08:46.694 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:08:46.706 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65268
+07-02-2023 12:08:46.709 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65268
+07-02-2023 12:08:46.710 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:08:46.718 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65273
+07-02-2023 12:08:46.721 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65273
+07-02-2023 12:08:46.721 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:08:46.727 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:08:46.736 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:08:46.736 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:08:46.737 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:08:46.737 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:08:46.737 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:08:46.738 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:08:46.741 [go] [INFO] ok  	command-line-arguments	1.179s
+07-02-2023 12:08:47.039 [Gauge] [DEBUG] Runner with PID:69982 has exited
+07-02-2023 12:08:47.039 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 12:08:47.039 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+07-02-2023 12:08:47.039 [Gauge] [INFO] 
+Total time taken: 34ms
+07-02-2023 12:17:15.760 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:17:15.761 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:17:15.762 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:17:15.762 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:17:15.762 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:17:15.762 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:17:15.764 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:17:15.764 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:17:15.764 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:17:15.764 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:17:15.765 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:17:16.512 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:17:16.513 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:17:16.759 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:17:16.838 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:17:16.906 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:17:16.982 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:17:20.556 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:17:20.556 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:17:20.558 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:17:20.558 [Gauge] [DEBUG] Run started
+07-02-2023 12:17:20.561 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:17:20.572 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65405
+07-02-2023 12:17:20.574 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65405
+07-02-2023 12:17:20.575 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:17:20.583 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 65411
+07-02-2023 12:17:20.586 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 65411
+07-02-2023 12:17:20.586 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:17:20.589 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:17:20.591 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:17:20.593 [Gauge] [DEBUG] * Validate Operator should be installed
+
+07-02-2023 12:17:20.595 [go] [INFO] 2023/02/07 12:17:20 Waiting for operator to be up and running....
+07-02-2023 12:17:20.880 [Gauge] [ERROR] Failed Step: Validate Operator should be installed
+07-02-2023 12:17:20.880 [Gauge] [ERROR] Error Message: runtime error: invalid memory address or nil pointer dereference
+07-02-2023 12:17:20.880 [Gauge] [ERROR] Specification: specs/tektonhub.spec:4
+07-02-2023 12:17:20.880 [Gauge] [ERROR] Stacktrace: 
+	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/clients/clients.go:176
+github.com/openshift-pipelines/release-tests/pkg/operator.ValidateOperatorInstallStatus(0x0, {{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}, {0x0, ...}, ...})
+	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/operator/operator.go:60 +0x4e
+step_impl/step_impl/TektonHub.glob..func1.1()
+	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:15 +0x165
+sync.(*Once).doSlow(0x0?, 0x0?)
+	/usr/local/Cellar/go/1.19.5/libexec/src/sync/once.go:74 +0xc2
+sync.(*Once).Do(...)
+	/usr/local/Cellar/go/1.19.5/libexec/src/sync/once.go:65
+step_impl/step_impl/TektonHub.glob..func1()
+	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:14 +0x31
+reflect.Value.call({0x2471060?, 0x290f770?, 0x3fb2108?}, {0x27f54f2, 0x4}, {0x39ca4a8, 0x0, 0x10ed7dad26c6e?})
+	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:584 +0x8c5
+reflect.Value.Call({0x2471060?, 0x290f770?, 0x2ad25d0?}, {0x39ca4a8?, 0x0?, 0xc000538241?})
+	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:368 +0xbc
+github.com/getgauge-contrib/gauge-go/testsuit.executeFunc({0x2471060?, 0x290f770?, 0x5?}, {0x0, 0x0, 0xc00051da60?})
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/funcExecutor.go:47 +0x1a5
+github.com/getgauge-contrib/gauge-go/testsuit.(*Step).Execute(0xc00010e0c0?, {0x0?, 0x25?, 0x5f?})
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/step.go:17 +0xbb
+github.com/getgauge-contrib/gauge-go/messageprocessors.(*ExecuteStepProcessor).Process(0x25862a0?, 0xc0001f32c0, 0xc000000007?)
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/messageprocessors/ExecuteStepProcessor.go:20 +0xab
+github.com/getgauge-contrib/gauge-go/gauge.Run()
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/gauge/runner.go:219 +0x23b
+command-line-arguments.init.0()
+	/var/folders/7b/2jcpr31d1_16lc9hpdqwr6z40000gn/T/gauge_temp1675752436522701000/gauge_test.go:9 +0x17
+07-02-2023 12:17:20.897 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:17:20.906 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:17:20.906 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:17:20.909 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:17:20.909 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:17:20.909 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:17:20.911 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:17:20.915 [go] [INFO] ok  	command-line-arguments	1.596s
+07-02-2023 12:17:21.211 [Gauge] [DEBUG] Runner with PID:71220 has exited
+07-02-2023 12:17:21.212 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+07-02-2023 12:17:21.212 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+07-02-2023 12:17:21.212 [Gauge] [INFO] 
+Total time taken: 336ms
+07-02-2023 12:39:28.502 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:39:28.503 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:39:28.504 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:39:28.504 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:39:28.504 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:39:28.504 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:39:28.506 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:39:28.506 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:39:28.506 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:39:28.506 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:39:28.507 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:39:30.000 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:39:30.001 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:39:30.247 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:39:30.312 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:39:30.380 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:39:30.451 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:39:33.352 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:39:33.352 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:39:33.355 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:39:33.355 [Gauge] [DEBUG] Run started
+07-02-2023 12:39:33.357 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:39:33.369 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49311
+07-02-2023 12:39:33.371 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49311
+07-02-2023 12:39:33.372 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:39:33.381 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49316
+07-02-2023 12:39:33.383 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49316
+07-02-2023 12:39:33.383 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:39:33.387 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:39:33.389 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:39:33.390 [Gauge] [DEBUG] * Validate Operator should be installed
+
+07-02-2023 12:39:33.392 [go] [INFO] 2023/02/07 12:39:33 Waiting for operator to be up and running....
+07-02-2023 12:39:33.637 [Gauge] [ERROR] Failed Step: Validate Operator should be installed
+07-02-2023 12:39:33.638 [Gauge] [ERROR] Error Message: runtime error: invalid memory address or nil pointer dereference
+07-02-2023 12:39:33.638 [Gauge] [ERROR] Specification: specs/tektonhub.spec:4
+07-02-2023 12:39:33.638 [Gauge] [ERROR] Stacktrace: 
+	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/clients/clients.go:176
+github.com/openshift-pipelines/release-tests/pkg/operator.ValidateOperatorInstallStatus(0x0, {{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}, {0x0, ...}, ...})
+	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/operator/operator.go:60 +0x4e
+step_impl/step_impl/TektonHub.glob..func1.1()
+	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:17 +0x165
+sync.(*Once).doSlow(0x0?, 0x0?)
+	/usr/local/Cellar/go/1.19.5/libexec/src/sync/once.go:74 +0xc2
+sync.(*Once).Do(...)
+	/usr/local/Cellar/go/1.19.5/libexec/src/sync/once.go:65
+step_impl/step_impl/TektonHub.glob..func1()
+	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:16 +0x31
+reflect.Value.call({0x2471200?, 0x290fa10?, 0x3fb2108?}, {0x27f5692, 0x4}, {0x39ca4a8, 0x0, 0x1100e2da4e637?})
+	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:584 +0x8c5
+reflect.Value.Call({0x2471200?, 0x290fa10?, 0x2ad28d0?}, {0x39ca4a8?, 0x0?, 0xc000142241?})
+	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:368 +0xbc
+github.com/getgauge-contrib/gauge-go/testsuit.executeFunc({0x2471200?, 0x290fa10?, 0x6?}, {0x0, 0x0, 0xc00068e900?})
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/funcExecutor.go:47 +0x1a5
+github.com/getgauge-contrib/gauge-go/testsuit.(*Step).Execute(0xc0000bc060?, {0x0?, 0x25?, 0x5f?})
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/step.go:17 +0xbb
+github.com/getgauge-contrib/gauge-go/messageprocessors.(*ExecuteStepProcessor).Process(0x2586440?, 0xc00022d4a0, 0xc000000007?)
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/messageprocessors/ExecuteStepProcessor.go:20 +0xab
+github.com/getgauge-contrib/gauge-go/gauge.Run()
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/gauge/runner.go:219 +0x23b
+command-line-arguments.init.0()
+	/var/folders/7b/2jcpr31d1_16lc9hpdqwr6z40000gn/T/gauge_temp1675753769295557000/gauge_test.go:9 +0x17
+07-02-2023 12:39:33.656 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:39:33.665 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:39:33.665 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:39:33.666 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:39:33.666 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:39:33.666 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:39:33.667 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:39:33.672 [go] [INFO] ok  	command-line-arguments	1.736s
+07-02-2023 12:39:33.968 [Gauge] [DEBUG] Runner with PID:72618 has exited
+07-02-2023 12:39:33.969 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+07-02-2023 12:39:33.969 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+07-02-2023 12:39:33.969 [Gauge] [INFO] 
+Total time taken: 300ms
+07-02-2023 12:40:06.770 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:40:06.771 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:40:06.772 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:40:06.772 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:40:06.773 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:40:06.773 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:40:06.774 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:40:06.774 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:40:06.775 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:40:06.775 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:40:06.776 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:40:07.647 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:40:07.648 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:07.992 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:08.048 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:08.104 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:08.160 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:11.133 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:40:11.134 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:40:11.136 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:40:11.136 [Gauge] [DEBUG] Run started
+07-02-2023 12:40:11.138 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:40:11.150 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49340
+07-02-2023 12:40:11.154 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49340
+07-02-2023 12:40:11.155 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:40:11.162 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49345
+07-02-2023 12:40:11.165 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49345
+07-02-2023 12:40:11.165 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:40:11.167 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:40:11.169 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:40:11.172 [Gauge] [DEBUG] * Verify ServiceAccount "pipeline" exist
+07-02-2023 12:40:11.410 [Gauge] [ERROR] Failed Step: Verify ServiceAccount "pipeline" exist
+07-02-2023 12:40:11.411 [Gauge] [ERROR] Error Message: interface conversion: interface {} is nil, not string
+07-02-2023 12:40:11.411 [Gauge] [ERROR] Specification: specs/tektonhub.spec:13
+07-02-2023 12:40:11.411 [Gauge] [ERROR] Stacktrace: 
+	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/store/store.go:13
+step_impl/step_impl/TektonHub.glob..func2({0xc000785020, 0x8})
+	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:22 +0x149
+reflect.Value.call({0x24c4640?, 0x290fa18?, 0x3fb2a68?}, {0x27f5692, 0x4}, {0xc0000edea8, 0x1, 0x11016f9bdc05f?})
+	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:584 +0x8c5
+reflect.Value.Call({0x24c4640?, 0x290fa18?, 0xc00028cdf0?}, {0xc0000edea8?, 0x0?, 0xc0008bfab0?})
+	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:368 +0xbc
+github.com/getgauge-contrib/gauge-go/testsuit.executeFunc({0x24c4640?, 0x290fa18?, 0x6?}, {0xc00028cdf0, 0x1, 0xc00028cde0?})
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/funcExecutor.go:47 +0x1a5
+github.com/getgauge-contrib/gauge-go/testsuit.(*Step).Execute(0xc0000ca300?, {0xc00028cdf0?, 0x1e?, 0x5f?})
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/step.go:17 +0xbb
+github.com/getgauge-contrib/gauge-go/messageprocessors.(*ExecuteStepProcessor).Process(0x2586440?, 0xc0004e12c0, 0xc000000007?)
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/messageprocessors/ExecuteStepProcessor.go:20 +0xab
+github.com/getgauge-contrib/gauge-go/gauge.Run()
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/gauge/runner.go:219 +0x23b
+command-line-arguments.init.0()
+	/var/folders/7b/2jcpr31d1_16lc9hpdqwr6z40000gn/T/gauge_temp1675753807693942000/gauge_test.go:9 +0x17
+07-02-2023 12:40:11.424 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:40:11.434 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:40:11.434 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:40:11.436 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:40:11.436 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:40:11.436 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:40:11.437 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:40:11.439 [go] [INFO] ok  	command-line-arguments	1.357s
+07-02-2023 12:40:11.737 [Gauge] [DEBUG] Runner with PID:72706 has exited
+07-02-2023 12:40:11.738 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+07-02-2023 12:40:11.738 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+07-02-2023 12:40:11.738 [Gauge] [INFO] 
+Total time taken: 285ms
+07-02-2023 12:40:27.582 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:40:27.583 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:40:27.583 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:40:27.584 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:40:27.584 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:40:27.584 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:40:27.586 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:40:27.586 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:40:27.587 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:40:27.587 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:40:27.588 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:40:28.513 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:40:28.514 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:28.668 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:28.721 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:28.774 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:28.834 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:40:32.003 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:40:32.003 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:40:32.005 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:40:32.005 [Gauge] [DEBUG] Run started
+07-02-2023 12:40:32.007 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:40:32.020 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+07-02-2023 12:40:32.020 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49358
+07-02-2023 12:40:32.023 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49358
+07-02-2023 12:40:32.024 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:40:32.034 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49363
+07-02-2023 12:40:32.036 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49363
+07-02-2023 12:40:32.036 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:40:32.040 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:40:32.043 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:40:32.046 [Gauge] [DEBUG] * Create TektonHub CR yaml file
+07-02-2023 12:40:32.048 [go] [INFO] YAML file created successfully: Tektonhub.yaml
+07-02-2023 12:40:32.054 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:40:32.062 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:40:32.062 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:40:32.063 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:40:32.064 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:40:32.064 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:40:32.064 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:40:32.066 [go] [INFO] ok  	command-line-arguments	1.270s
+07-02-2023 12:40:32.366 [Gauge] [DEBUG] Runner with PID:72783 has exited
+07-02-2023 12:40:32.367 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:40:32.367 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:40:32.367 [Gauge] [INFO] 
+Total time taken: 48ms
+07-02-2023 12:42:55.018 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:42:55.019 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:42:55.019 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:42:55.020 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:42:55.020 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:42:55.020 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:42:55.021 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:42:55.021 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:42:55.021 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:42:55.021 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:42:55.022 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:42:56.127 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:42:56.127 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:42:56.666 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:42:56.741 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:42:56.810 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:42:56.880 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:42:59.504 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:42:59.504 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:42:59.506 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:42:59.506 [Gauge] [DEBUG] Run started
+07-02-2023 12:42:59.511 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:42:59.522 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+07-02-2023 12:42:59.522 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49421
+07-02-2023 12:42:59.525 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49421
+07-02-2023 12:42:59.526 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:42:59.534 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49426
+07-02-2023 12:42:59.536 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49426
+07-02-2023 12:42:59.536 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:42:59.540 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:42:59.542 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:42:59.544 [Gauge] [DEBUG] * Create TektonHub CR yaml file
+07-02-2023 12:42:59.547 [go] [INFO] YAML file created successfully: ./Tektonhub.yaml
+07-02-2023 12:42:59.551 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:42:59.560 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:42:59.560 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:42:59.561 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:42:59.561 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:42:59.561 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:42:59.562 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:42:59.564 [go] [INFO] ok  	command-line-arguments	1.213s
+07-02-2023 12:42:59.863 [Gauge] [DEBUG] Runner with PID:72991 has exited
+07-02-2023 12:42:59.864 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:42:59.864 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:42:59.864 [Gauge] [INFO] 
+Total time taken: 44ms
+07-02-2023 12:45:02.219 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:45:02.220 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:45:02.221 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:45:02.221 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:45:02.222 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:45:02.222 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:45:02.223 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:45:02.224 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:45:02.224 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:45:02.224 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:45:02.225 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:45:03.352 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:45:03.354 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:45:03.751 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:45:03.820 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:45:03.888 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:45:03.956 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:45:06.642 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:45:06.642 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:45:06.644 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:45:06.644 [Gauge] [DEBUG] Run started
+07-02-2023 12:45:06.646 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:45:06.658 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49454
+07-02-2023 12:45:06.660 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49454
+07-02-2023 12:45:06.661 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:45:06.669 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49459
+07-02-2023 12:45:06.672 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49459
+07-02-2023 12:45:06.672 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:45:06.675 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:45:06.677 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:45:06.678 [Gauge] [DEBUG] * Create TektonHub CR yaml file
+07-02-2023 12:45:06.680 [go] [INFO] YAML file created successfully: ./Tektonhub.yaml
+07-02-2023 12:45:06.684 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:45:06.692 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:45:06.693 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:45:06.694 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:45:06.694 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:45:06.694 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:45:06.695 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:45:06.697 [go] [INFO] ok  	command-line-arguments	1.163s
+07-02-2023 12:45:06.998 [Gauge] [DEBUG] Runner with PID:73179 has exited
+07-02-2023 12:45:06.998 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:45:06.998 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:45:06.999 [Gauge] [INFO] 
+Total time taken: 39ms
+07-02-2023 12:46:44.690 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:46:44.691 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:46:44.692 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:46:44.692 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:46:44.692 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:46:44.692 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:46:44.694 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:46:44.694 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:46:44.694 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:46:44.694 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:46:44.695 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:46:46.296 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:46:46.297 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:46:46.632 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:46:46.689 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:46:46.746 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:46:46.803 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:46:49.269 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:46:49.269 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:46:49.272 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:46:49.272 [Gauge] [DEBUG] Run started
+07-02-2023 12:46:49.274 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:46:49.286 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+07-02-2023 12:46:49.286 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49482
+07-02-2023 12:46:49.289 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49482
+07-02-2023 12:46:49.290 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:46:49.299 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49488
+07-02-2023 12:46:49.301 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49488
+07-02-2023 12:46:49.301 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:46:49.305 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:46:49.308 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:46:49.310 [Gauge] [DEBUG] * Create TektonHub CR yaml file
+07-02-2023 12:46:49.312 [go] [INFO] YAML file created successfully: ./Tektonhub.yaml
+07-02-2023 12:46:49.316 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:46:49.324 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:46:49.324 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:46:49.325 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:46:49.325 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:46:49.325 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:46:49.326 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:46:49.328 [go] [INFO] ok  	command-line-arguments	1.169s
+07-02-2023 12:46:49.628 [Gauge] [DEBUG] Runner with PID:73742 has exited
+07-02-2023 12:46:49.629 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:46:49.629 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:46:49.629 [Gauge] [INFO] 
+Total time taken: 43ms
+07-02-2023 12:47:53.565 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:47:53.566 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:47:53.566 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:47:53.567 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:47:53.567 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:47:53.567 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:47:53.569 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:47:53.569 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:47:53.569 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:47:53.569 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:47:53.570 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:47:54.944 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:47:54.945 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:47:55.266 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:47:55.341 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:47:55.419 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:47:55.494 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:47:57.922 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:47:57.922 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:47:57.924 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:47:57.924 [Gauge] [DEBUG] Run started
+07-02-2023 12:47:57.925 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:47:57.937 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49511
+07-02-2023 12:47:57.940 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49511
+07-02-2023 12:47:57.941 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:47:57.950 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49516
+07-02-2023 12:47:57.952 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49516
+07-02-2023 12:47:57.952 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:47:57.955 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:47:57.957 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:47:57.960 [Gauge] [DEBUG] * Create TektonHub CR yaml file
+07-02-2023 12:47:57.963 [go] [INFO] YAML file created successfully: cat fileName
+07-02-2023 12:47:57.968 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:47:57.976 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:47:57.976 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:47:57.978 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:47:57.978 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:47:57.978 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:47:57.978 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:47:57.980 [go] [INFO] ok  	command-line-arguments	1.143s
+07-02-2023 12:47:58.179 [Gauge] [DEBUG] Runner with PID:74042 has exited
+07-02-2023 12:47:58.180 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:47:58.180 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:47:58.180 [Gauge] [INFO] 
+Total time taken: 44ms
+07-02-2023 12:50:23.691 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:50:23.692 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:50:23.692 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:50:23.693 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:50:23.693 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:50:23.693 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:50:23.694 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:50:23.694 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:50:23.695 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:50:23.695 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:50:23.695 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:50:25.240 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:50:25.241 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:50:25.603 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:50:25.673 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:50:25.740 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:50:25.805 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:50:28.049 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:50:28.050 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:50:28.052 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:50:28.052 [Gauge] [DEBUG] Run started
+07-02-2023 12:50:28.055 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:50:28.068 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49546
+07-02-2023 12:50:28.070 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49546
+07-02-2023 12:50:28.071 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:50:28.080 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49551
+07-02-2023 12:50:28.082 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49551
+07-02-2023 12:50:28.082 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:50:28.085 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:50:28.087 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:50:28.089 [Gauge] [DEBUG] * Create TektonHub CR yaml file
+07-02-2023 12:50:28.091 [go] [INFO] /var/folders/7b/2jcpr31d1_16lc9hpdqwr6z40000gn/T/gauge_temp1675754424517675000
+07-02-2023 12:50:28.091 [go] [INFO] YAML file created successfully: ./Tektonhub.yaml
+07-02-2023 12:50:28.095 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:50:28.103 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:50:28.103 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:50:28.105 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:50:28.105 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:50:28.105 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:50:28.105 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:50:28.108 [go] [INFO] ok  	command-line-arguments	1.171s
+07-02-2023 12:50:28.406 [Gauge] [DEBUG] Runner with PID:74553 has exited
+07-02-2023 12:50:28.407 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:50:28.407 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+07-02-2023 12:50:28.407 [Gauge] [INFO] 
+Total time taken: 42ms
+07-02-2023 12:52:46.070 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/manoj/Desktop/gauge/.gauge/screenshots
+07-02-2023 12:52:46.071 [Gauge] [DEBUG] Plugin go is already installed.
+07-02-2023 12:52:46.071 [Gauge] [DEBUG] Plugin html-report is already installed.
+07-02-2023 12:52:46.072 [Gauge] [DEBUG] Plugin xml-report is already installed.
+07-02-2023 12:52:46.072 [Gauge] [DEBUG] Parsing started.
+07-02-2023 12:52:46.072 [Gauge] [DEBUG] Started concepts parsing.
+07-02-2023 12:52:46.073 [Gauge] [DEBUG] 0 concepts parsing completed.
+07-02-2023 12:52:46.073 [Gauge] [DEBUG] Started specifications parsing.
+07-02-2023 12:52:46.074 [Gauge] [DEBUG] 1 specifications parsing completed.
+07-02-2023 12:52:46.074 [Gauge] [DEBUG] Parsing completed.
+07-02-2023 12:52:46.075 [Gauge] [DEBUG] Starting go runner
+07-02-2023 12:52:47.348 [Gauge] [DEBUG] Checking updates...
+07-02-2023 12:52:47.349 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/go?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:52:47.607 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:52:47.665 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:52:47.726 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:52:47.783 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=go&p=go,html-report,python,screenshot,xml-report&o=darwin&a=amd64
+07-02-2023 12:52:50.366 [Gauge] [DEBUG] Established connection to runner.
+07-02-2023 12:52:50.366 [Gauge] [DEBUG] Validation started.
+07-02-2023 12:52:50.368 [Gauge] [DEBUG] Validation completed.
+07-02-2023 12:52:50.368 [Gauge] [DEBUG] Run started
+07-02-2023 12:52:50.372 [Gauge] [DEBUG] Starting Html Report plugin
+07-02-2023 12:52:50.384 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+07-02-2023 12:52:50.384 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49591
+07-02-2023 12:52:50.386 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49591
+07-02-2023 12:52:50.387 [Gauge] [DEBUG] Starting Xml Report plugin
+07-02-2023 12:52:50.395 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49596
+07-02-2023 12:52:50.397 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49596
+07-02-2023 12:52:50.397 [Gauge] [DEBUG] Initialising suite data store.
+07-02-2023 12:52:50.401 [Gauge] [INFO] # Verify TektonHub E2E spec
+07-02-2023 12:52:50.403 [Gauge] [INFO] ## Run sample tektonhub
+07-02-2023 12:52:50.405 [Gauge] [DEBUG] * Validate Operator should be installed
+
+07-02-2023 12:52:50.407 [go] [INFO] 2023/02/07 12:52:50 Waiting for operator to be up and running....
+07-02-2023 12:52:50.630 [Gauge] [ERROR] Failed Step: Validate Operator should be installed
+07-02-2023 12:52:50.630 [Gauge] [ERROR] Error Message: runtime error: invalid memory address or nil pointer dereference
+07-02-2023 12:52:50.630 [Gauge] [ERROR] Specification: specs/tektonhub.spec:4
+07-02-2023 12:52:50.630 [Gauge] [ERROR] Stacktrace: 
+	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/clients/clients.go:176
+github.com/openshift-pipelines/release-tests/pkg/operator.ValidateOperatorInstallStatus(0x0, {{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}, {0x0, ...}, ...})
+	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/operator/operator.go:60 +0x4e
+step_impl/step_impl/TektonHub.glob..func1.1()
+	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:17 +0x165
+sync.(*Once).doSlow(0x0?, 0x0?)
+	/usr/local/Cellar/go/1.19.5/libexec/src/sync/once.go:74 +0xc2
+sync.(*Once).Do(...)
+	/usr/local/Cellar/go/1.19.5/libexec/src/sync/once.go:65
+step_impl/step_impl/TektonHub.glob..func1()
+	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:16 +0x31
+reflect.Value.call({0x2471220?, 0x290fa30?, 0x3fb25b8?}, {0x27f56b2, 0x4}, {0x39ca4a8, 0x0, 0x110c7be43d681?})
+	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:584 +0x8c5
+reflect.Value.Call({0x2471220?, 0x290fa30?, 0x2ad28d0?}, {0x39ca4a8?, 0x0?, 0xc0000685a1?})
+	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:368 +0xbc
+github.com/getgauge-contrib/gauge-go/testsuit.executeFunc({0x2471220?, 0x290fa30?, 0x6?}, {0x0, 0x0, 0xc000613620?})
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/funcExecutor.go:47 +0x1a5
+github.com/getgauge-contrib/gauge-go/testsuit.(*Step).Execute(0xc000288000?, {0x0?, 0x25?, 0x5f?})
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/step.go:17 +0xbb
+github.com/getgauge-contrib/gauge-go/messageprocessors.(*ExecuteStepProcessor).Process(0x2586460?, 0xc0005dd4a0, 0xc000000007?)
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/messageprocessors/ExecuteStepProcessor.go:20 +0xab
+github.com/getgauge-contrib/gauge-go/gauge.Run()
+	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/gauge/runner.go:219 +0x23b
+command-line-arguments.init.0()
+	/var/folders/7b/2jcpr31d1_16lc9hpdqwr6z40000gn/T/gauge_temp1675754566896284000/gauge_test.go:9 +0x17
+07-02-2023 12:52:50.646 [html-report] [DEBUG] Transformed SuiteResult to report structure
+07-02-2023 12:52:50.654 [html-report] [INFO] Successfully generated html-report to => /Users/manoj/Desktop/gauge/reports/html-report/index.html
+07-02-2023 12:52:50.654 [html-report] [DEBUG] Done generating HTML report using theme from /Users/manoj/.gauge/plugins/html-report/4.2.0/themes/default
+07-02-2023 12:52:50.656 [xml-report] [INFO] Successfully generated xml-report to => /Users/manoj/Desktop/gauge/reports/xml-report
+07-02-2023 12:52:50.656 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+07-02-2023 12:52:50.656 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+07-02-2023 12:52:50.657 [Gauge] [DEBUG] Sending kill message to runner.
+07-02-2023 12:52:50.660 [go] [INFO] ok  	command-line-arguments	1.402s
+07-02-2023 12:52:50.958 [Gauge] [DEBUG] Runner with PID:74706 has exited
+07-02-2023 12:52:50.959 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+07-02-2023 12:52:50.959 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+07-02-2023 12:52:50.959 [Gauge] [INFO] 
+Total time taken: 275ms

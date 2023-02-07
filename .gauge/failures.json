@@ -1,0 +1,8 @@
+{
+	"Args": [
+		"run"
+	],
+	"FailedItems": [
+		"specs/tektonhub.spec:6"
+	]
+}

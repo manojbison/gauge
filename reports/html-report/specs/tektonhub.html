@@ -31,13 +31,13 @@
    
   <div class="report_chart">
     <div class="chart">
-      <svg id="pie-chart" data-results="0,0,1" data-total="1">
+      <svg id="pie-chart" data-results="1,0,0" data-total="1">
         <path class="status failed" />
-        <path class="shadow failed" data-status="failed"><title>Failed: 0/1</title></path>
+        <path class="shadow failed" data-status="failed"><title>Failed: 1/1</title></path>
         <path class="status passed" />
         <path class="shadow passed" data-status="passed"><title>Passed: 0/1</title></path>
         <path class="status skipped" />
-        <path class="shadow skipped" data-status="skipped"><title>Skipped: 1/1</title></path>
+        <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/1</title></path>
       </svg>
     </div>
   </div>
@@ -46,15 +46,15 @@
   <div class="report_test-results">
     <div class="report_test-result specs">
         <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
-        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">0</span></div>
+        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">1</span></div>
         <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">0</span></div>
-        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">1</span></div>
+        <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
     </div>
     <div class="report_test-result scenarios">
         <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">1</span></div>
-        <div class="fail scenario-stats" data-status="failed"><span class="value">0</span></div>
+        <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
         <div class="pass scenario-stats" data-status="passed"><span class="value">0</span></div>
-        <div class="skip scenario-stats" data-status="skipped"><span class="value">1</span></div>
+        <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
     </div>
   </div>
 
@@ -76,7 +76,7 @@
     </li>
     <li>
       <label>Generated On </label>
-      <span>Feb 3, 2023 at 1:44pm</span>
+      <span>Feb 7, 2023 at 12:52pm</span>
     </li>
   </ul>
 
@@ -114,8 +114,8 @@
         <ul id="scenarios" class="spec-list">
         
           <a href="tektonhub.html">
-             
-              <li class="skipped spec-name">
+            
+              <li class="failed spec-name">
             
               <span id="scenarioName" class="scenarioname">Verify TektonHub E2E spec</span>
               <span id="time" class="time">00:00:00</span>
@@ -136,9 +136,9 @@
         <h3 class="spec-head" title="/Users/manoj/Desktop/gauge/specs/tektonhub.spec">Verify TektonHub E2E spec</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
-            <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
+            <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
             <li class="pass"><span class="value">0</span><span class="txt">Passed</span></li>
-            <li class="skip"><span class="value">1</span><span class="txt">Skipped</span></li>
+            <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
       </div>
@@ -179,7 +179,8 @@
       
         
 	
-  <div class="scenario-container skipped">
+  <div class="scenario-container failed">
+    
 
 	
   <div class="scenario-head">
@@ -222,7 +223,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info not-executed">
+  <div class="step-info failed">
   
   <ul>
     <li class="step">
@@ -249,6 +250,30 @@
   </div>
 
   
+    
+        
+  <div class="error-container failed">
+    <div class="exception-container">
+      <div class="exception">
+        <h4 class="error-message">
+          <pre>runtime error: invalid memory address or nil pointer dereference</pre>
+        </h4>
+        <pre class="stacktrace">	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/clients/clients.go:176<br/>github.com/openshift-pipelines/release-tests/pkg/operator.ValidateOperatorInstallStatus(0x0, {{0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}, {0x0, 0x0}, {0x0, ...}, ...})<br/>	/Users/manoj/go/pkg/mod/github.com/openshift-pipelines/release-tests@v0.0.0-20230119152413-4ac9a3b4aa30/pkg/operator/operator.go:60 +0x4e<br/>step_impl/step_impl/TektonHub.glob..func1.1()<br/>	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:17 +0x165<br/>sync.(*Once).doSlow(0x0?, 0x0?)<br/>	/usr/local/Cellar/go/1.19.5/libexec/src/sync/once.go:74 +0xc2<br/>sync.(*Once).Do(...)<br/>	/usr/local/Cellar/go/1.19.5/libexec/src/sync/once.go:65<br/>step_impl/step_impl/TektonHub.glob..func1()<br/>	/Users/manoj/Desktop/gauge/step_impl/TektonHub/tektonhub.go:16 +0x31<br/>reflect.Value.call({0x2471220?, 0x290fa30?, 0x3fb25b8?}, {0x27f56b2, 0x4}, {0x39ca4a8, 0x0, 0x110c7be43d681?})<br/>	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:584 +0x8c5<br/>reflect.Value.Call({0x2471220?, 0x290fa30?, 0x2ad28d0?}, {0x39ca4a8?, 0x0?, 0xc0000685a1?})<br/>	/usr/local/Cellar/go/1.19.5/libexec/src/reflect/value.go:368 +0xbc<br/>github.com/getgauge-contrib/gauge-go/testsuit.executeFunc({0x2471220?, 0x290fa30?, 0x6?}, {0x0, 0x0, 0xc000613620?})<br/>	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/funcExecutor.go:47 +0x1a5<br/>github.com/getgauge-contrib/gauge-go/testsuit.(*Step).Execute(0xc000288000?, {0x0?, 0x25?, 0x5f?})<br/>	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/testsuit/step.go:17 +0xbb<br/>github.com/getgauge-contrib/gauge-go/messageprocessors.(*ExecuteStepProcessor).Process(0x2586460?, 0xc0005dd4a0, 0xc000000007?)<br/>	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/messageprocessors/ExecuteStepProcessor.go:20 +0xab<br/>github.com/getgauge-contrib/gauge-go/gauge.Run()<br/>	/Users/manoj/go/pkg/mod/github.com/getgauge-contrib/gauge-go@v0.3.1/gauge/runner.go:219 +0x23b<br/>command-line-arguments.init.0()<br/>	/var/folders/7b/2jcpr31d1_16lc9hpdqwr6z40000gn/T/gauge_temp1675754566896284000/gauge_test.go:9 +0x17<br/></pre>
+      </div>
+      
+        
+          
+            <div class="screenshot-container custom-screenshot-message">
+              <div class="screenshot">
+              <p class="custom-message">To view a screenshot of this failed step, Please set up a <a href="https://docs.gauge.org/writing-specifications/#taking-custom-screenshots">custom screenshot handler.</a></p>
+              </div>
+            </div>
+          
+        
+      
+    </div>
+  </div>
+
     
     
   
@@ -278,7 +303,15 @@
   
     
   
-    <span><p>Steps:</p>
+    <span><p>Component: TektonHub</p>
+
+<p>Level: Integration</p>
+
+<p>Type: Functional</p>
+
+<p>Importance: Critical</p>
+
+<p>Steps:</p>
 </span>
   
 
@@ -290,7 +323,11 @@
   <div class="step">
   
   
-  <div class="step-info skipped">
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -347,11 +384,68 @@
 	</li></ul></div></div>
   
     
-        
-  <div class="message-container">
-    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class="step">
+  
+  
+    <h5 class="execution-time">
+      <span class="time">Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class="step-info not-executed">
+  
+  <ul>
+    <li class="step">
+      <div class="step-txt">
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+      <span>
+        Create TektonHub CR yaml file
+      </span>
+    
+  
   </div>
 
+  
+    
+    
+  
+
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+	</li></ul></div></div>
+  
     
   
 

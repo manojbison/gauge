@@ -1038,6 +1038,8 @@ github.com/tektoncd/pipeline v0.41.0 h1:FksQuX83ZRasZygQPNmaR6hKBh6gy822XxRuoKBq
 github.com/tektoncd/pipeline v0.41.0/go.mod h1:YY4+PGfdsd6Qxn3PZXmCpKeS3heK8pIIcnUt37vRJ2Q=
 github.com/tektoncd/triggers v0.22.0 h1:xe9l+ebuUMuP4wzBLjvmUGUPZCz0qND4osFFLSVCAW0=
 github.com/tektoncd/triggers v0.22.0/go.mod h1:lYxFl8cKbr+DaHMQa47U4Y7uyhTAMsRAT0uOOY8xiGE=
+github.com/tektoncd/triggers v0.22.1 h1:D00BoTf5pS2kFC5RSly010b5qMuQbGhyK7rT/WZc1m0=
+github.com/tektoncd/triggers v0.22.1/go.mod h1:lYxFl8cKbr+DaHMQa47U4Y7uyhTAMsRAT0uOOY8xiGE=
 github.com/tidwall/pretty v0.0.0-20180105212114-65a9db5fad51/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/tidwall/pretty v1.0.0/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/tmc/grpc-websocket-proxy v0.0.0-20170815181823-89b8d40f7ca8/go.mod h1:ncp9v5uamzpCO7NfCPTXjqaC+bZgJeR0sMTm6dMHP7U=
