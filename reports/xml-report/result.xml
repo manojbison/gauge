@@ -1,9 +1,7 @@
 <testsuites>
-	<testsuite id="1" tests="1" failures="0" package="/home/manoj/gauge/specs/tektonhub.spec" time="0.000" timestamp="2023-02-07T05:01:55" name="Verify TektonHub E2E spec" errors="0" skipped="1" hostname="pli43">
+	<testsuite id="1" tests="1" failures="0" package="/home/manoj/gopath/gauge/specs/tektonhub.spec" time="5.434" timestamp="2023-02-08T01:38:52" name="Verify TektonHub E2E spec" errors="0" hostname="pli43">
 		<properties></properties>
-		<testcase classname="Verify TektonHub E2E spec" name="Run sample tektonhub" time="0.000">
-			<skipped message="/home/manoj/gauge/specs/tektonhub.spec:14 Step implementation not found =&gt; &#39;Verify ServiceAccount &#34;pipeline&#34; exist&#39;"></skipped>
-		</testcase>
+		<testcase classname="Verify TektonHub E2E spec" name="Run sample tektonhub" time="5.434"></testcase>
 		<system-out></system-out>
 		<system-err></system-err>
 	</testsuite>

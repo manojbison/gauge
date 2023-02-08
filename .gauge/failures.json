@@ -1,6 +1,10 @@
 {
 	"Args": [
-		"run"
+		"run",
+		"--env",
+		"default, test",
+		"--log-level=debug",
+		"--verbose"
 	],
 	"FailedItems": []
 }

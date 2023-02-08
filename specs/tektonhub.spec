@@ -5,7 +5,7 @@ Pre condition:
 
 ## Run sample tektonhub
 Tags: e2e, tektonhub
-Component: TektonHub
+Component: Pipelines
 Level: Integration
 Type: Functional
 Importance: Critical
